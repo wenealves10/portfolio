@@ -16,3 +16,18 @@ function toggleMenu(event) {
 }
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+// function mudaIdioma(){
+// 	var idioma = (navigator.browserLanguage!=undefined)? navigator.browserLanguage : navigator.language;
+
+// 	if(idioma === 'pt-BR'){
+
+// 		const IdiomaSelect = localStorage.getItem('IdiomaWenedev');
+// 		if(!IdiomaSelect) {
+// 			const isMuda = confirm('Você acessou o site em Inglês, mas seu idioma padrão é português!\n Gostaria de muda para site para Português?');
+
+// 			localStorage.setItem('IdiomaWenedev', isMuda);
+// 		}		
+// 	}
+// }
+
